@@ -53,6 +53,7 @@ nav a {
 
 .header {
   margin-top: 5rem;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,6 +73,7 @@ nav a {
 
 .Hero-text {
   margin-top: 2rem;
+
   text-align: center;
   color: white;
   font-weight: 0;
@@ -84,6 +86,7 @@ nav a {
 h1 {
   font-weight: 900;
   font-size: 2.5rem;
+  margin-bottom: 0;
 }
 .Hero-text p {
   font-size: 1.6rem;
@@ -109,6 +112,7 @@ h1 {
   align-items: center;
   gap: 50px;
   margin-top: 1rem;
+  margin-bottom: 10rem;
 }
 .header button {
   background-color: #262a36;
@@ -122,3 +126,41 @@ h1 {
   font-size: 18px;
   border: none;
 }
+/* ---------------------------------- END OF HERO SECTION------------------------------- */
+
+/* ----------------------------------ABOUT SECTION------------------------------- */
+.about-me-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10rem;
+}
+.about-img-wrapper {
+  border-radius: 5px;
+  background: linear-gradient(black, #30343a, #30343a);
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -19px 38px,
+    rgba(5, 5, 5, 0.536) 0px 15px 12px;
+  margin-left: 5rem;
+}
+.text-section {
+  width: 30%;
+  text-align: left;
+  color: white;
+  margin-right: 5rem;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+.text-section p {
+  font-weight: 70;
+  line-height: 1.6rem;
+  font-size: 14px;
+}
+
+/* ---------------------------END OF ABOUT SECTION -------------- */
