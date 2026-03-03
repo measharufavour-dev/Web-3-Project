@@ -342,3 +342,103 @@ h3 {
 /* ----------------------------END OF CERTIFICATE SECTION ------------------- */
 
 /* --------------------EXPERIENCE SECTION ------------------- */
+
+.exp-section {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  margin-bottom: 10rem;
+}
+.border-exp {
+  text-align: left;
+  border-bottom: 4px solid;
+  border-color: #f7a21e;
+  width: 70vw;
+}
+.exo-btn-wrapper {
+  display: flex;
+  gap: 150px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.exp-btn {
+  width: 15vw;
+}
+.experience-text {
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -5px 5px,
+    rgba(5, 5, 5, 0.536) 0px 5px 5px;
+  padding: 1.5rem;
+  line-height: 1.5rem;
+  text-align: left;
+  width: 26vw;
+  height: 70vh;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #393d46;
+}
+.experience-text p {
+  font-size: 14px;
+  font-weight: 50;
+}
+
+.experience-text h2 {
+  color: #393d46;
+  font-size: 24px;
+}
+.seperating-line {
+  height: 700px;
+  width: 2px;
+  background-color: #393d46;
+  color: #393d46;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.Component-in1 {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+}
+.Component-in2 {
+  position: absolute;
+  top: 90%;
+  left: 46%;
+}
+.education-text {
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -5px 5px,
+    rgba(5, 5, 5, 0.536) 0px 5px 5px;
+  padding: 1.5rem;
+  line-height: 1.5rem;
+  text-align: left;
+  width: 26vw;
+  height: 70vh;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #393d46;
+  position: absolute;
+  top: 80%;
+  left: 60%;
+}
+.education-text h2 {
+  color: #393d46;
+  font-size: 24px;
+  padding: 0;
+}
+
+.education-text p {
+  font-size: 14px;
+  font-weight: 50;
+}
+
+/* -------------------------- END OF EXPERIENCE SECTION ------------------- */
