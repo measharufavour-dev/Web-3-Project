@@ -1,5 +1,124 @@
 /* .poppins-thin {
-  font-family: "Poppins", sans-serif;
+  font-family: 
   font-weight: 100;
   font-style: normal;
 } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #24272c;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 2rem;
+  background-color: #262a36;
+  border: 2px solid #262a36;
+  border-radius: 20px;
+  /* box-shadow:
+    inset 20px 20px 20px #262a36,
+    inset -20px -20px 20px #262a36; */
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px 0px inset,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px 0px inset,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px 0px inset,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px 0px inset,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px 0px inset;
+}
+/* ----------------------------------HERO SECTION------------------------------- */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 5rem;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  border-radius: 1rem;
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -5px 5px,
+    rgba(5, 5, 5, 0.536) 0px 5px 5px;
+  padding: 1rem 1.5rem;
+}
+
+.header {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-wrapper {
+  background-color: black;
+  border-radius: 50%;
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -19px 38px,
+    rgba(5, 5, 5, 0.536) 0px 15px 12px;
+}
+
+.Hero-text {
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+  font-weight: 0;
+}
+.Hero-text .heytx {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: 100;
+}
+h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.Hero-text p {
+  font-size: 1.6rem;
+}
+.hero-text-highlight {
+  color: #d32d20;
+  border-right: 2px solid #d32d20;
+}
+.header .hero-para {
+  margin: 0 auto;
+  text-align: center;
+  width: 45%;
+
+  font-size: 0.9rem;
+  font-weight: 50;
+  padding: 1rem;
+  line-height: 1.2rem;
+}
+.header-btn {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 1rem;
+}
+.header button {
+  background-color: #262a36;
+  color: white;
+  border-radius: 1rem;
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -5px 5px,
+    rgba(5, 5, 5, 0.536) 0px 5px 5px;
+  padding: 1rem 1.5rem;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+}
