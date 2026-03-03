@@ -172,7 +172,7 @@ section {
   margin: 5rem auto;
 }
 .border {
-  border-bottom: 2px solid;
+  border-bottom: 4px solid;
   border-color: rgb(114, 44, 255);
 }
 .buttons {
@@ -254,8 +254,91 @@ h3 {
   text-align: center;
   line-height: 1rem;
 }
-.github-icon{
+.github-icon {
   margin-top: 0.5rem;
 }
 
-/* ------------------------------- END OF PROJECT SECTION */
+/* ------------------------------- END OF PROJECT SECTION---------------------- */
+
+/* -------------------------------SKILLS SECTION-----------------*/
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0;
+  margin-top: 5rem;
+  width: 50vw;
+}
+.border-skills {
+  text-align: right;
+  border-bottom: 4px solid;
+  border-color: #f7a21e;
+}
+
+.skill-section .items {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.skill-section .languages-btn {
+  background-color: #7733ff;
+  width: 15vw;
+  border-radius: 2rem;
+}
+.skills-hero-img {
+  border-radius: 50%;
+  box-shadow:
+    rgba(243, 240, 240, 0.17) 0px -5px 2px,
+    rgba(5, 5, 5, 0.78) 0px 5px 2px;
+}
+/* ------------------------- END OF SKILLS SECTION---------------------*/
+
+/* --------------------------CERTIFICATION SECTION ---------------------- */
+.certificate-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 10rem;
+  width: 50vw;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.border2 {
+  text-align: left;
+  border-bottom: 4px solid;
+  border-color: #7733ff;
+  width: 60vw;
+  margin-bottom: 5rem;
+}
+
+.cert-img-wrapper {
+  display: flex;
+  gap: 40px;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+.cert-img-wrapper-small {
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+}
+.cert-img-wrapper-small-pad {
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  padding-right: 2.5rem;
+}
+.cert-img-wrapper-Large {
+  width: 700px;
+  border-radius: 30px;
+}
+
+/* ----------------------------END OF CERTIFICATE SECTION ------------------- */
+
+/* --------------------EXPERIENCE SECTION ------------------- */
