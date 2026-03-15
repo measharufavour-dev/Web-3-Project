@@ -73,7 +73,6 @@ nav a {
 
 .Hero-text {
   margin-top: 2rem;
-
   text-align: center;
   color: white;
   font-weight: 0;
@@ -98,12 +97,11 @@ h1 {
 .header .hero-para {
   margin: 0 auto;
   text-align: center;
-  width: 45%;
-
-  font-size: 0.9rem;
-  font-weight: 50;
+  width: 47vw;
+  font-size: 1rem;
+  font-weight: 100;
   padding: 1rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 .header-btn {
   display: inline-flex;
@@ -155,7 +153,7 @@ h1 {
 h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  padding: 1rem;
+  margin-bottom: 1rem;
   color: white;
 }
 .text-section p {
@@ -357,13 +355,17 @@ h3 {
   border-color: #f7a21e;
   width: 70vw;
 }
-.exo-btn-wrapper {
+.exp-btn-wrapper {
   display: flex;
   gap: 150px;
   margin-top: 3rem;
   margin-bottom: 3rem;
   align-items: center;
   justify-content: center;
+}
+.exp-btn-wrapper .exp-btn-1 {
+  background-color: #7733ff;
+  width: 15vw;
 }
 .exp-btn {
   width: 15vw;
@@ -373,24 +375,23 @@ h3 {
     rgba(122, 122, 122, 0.15) 0px -5px 5px,
     rgba(5, 5, 5, 0.536) 0px 5px 5px;
   padding: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   text-align: left;
   width: 26vw;
   height: 70vh;
   max-width: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  color: #393d46;
+  color: #f4f5f83e;
 }
 .experience-text p {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 50;
 }
 
 .experience-text h2 {
-  color: #393d46;
-  font-size: 24px;
+  color: #f4f5f83e;
+  font-size: 20px;
 }
 .seperating-line {
   height: 700px;
@@ -417,28 +418,87 @@ h3 {
     rgba(122, 122, 122, 0.15) 0px -5px 5px,
     rgba(5, 5, 5, 0.536) 0px 5px 5px;
   padding: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   text-align: left;
   width: 26vw;
   height: 70vh;
   max-width: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  color: #393d46;
+  color: #f4f5f83e;
   position: absolute;
   top: 80%;
   left: 60%;
 }
 .education-text h2 {
-  color: #393d46;
-  font-size: 24px;
+  color: #f4f5f83e;
+  font-size: 20px;
   padding: 0;
 }
 
 .education-text p {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 50;
 }
 
 /* -------------------------- END OF EXPERIENCE SECTION ------------------- */
+.contact-section {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  margin-bottom: 10rem;
+  margin-top: 15rem;
+}
+.side-contents {
+  display: flex;
+  gap: 20rem;
+}
+.cont-img-wrapper {
+  background-color: black;
+  width: 320px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -19px 38px,
+    rgba(5, 5, 5, 0.536) 0px 15px 12px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 20px;
+}
+input {
+  font-family: inherit;
+  width: 25vw;
+  padding: 1.5rem;
+  border: none;
+  background-color: #232732;
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -5px 5px,
+    rgba(5, 5, 5, 0.536) 0px 5px 5px,
+    inset rgba(5, 5, 5, 0.536) -5px -5px 5px,
+    inset rgba(177, 174, 174, 0.536) 5px 5px 5px;
+}
+.contact-section .textarea {
+  padding-bottom: 4rem;
+}
+form button {
+  width: 10vw;
+  background-color: #262a36;
+  color: white;
+  border-radius: 2rem;
+  box-shadow:
+    rgba(122, 122, 122, 0.15) 0px -5px 5px,
+    rgba(5, 5, 5, 0.536) 0px 5px 5px;
+  padding: 1rem 1.2rem;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+}
